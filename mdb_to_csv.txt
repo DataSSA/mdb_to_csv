@@ -1,4 +1,4 @@
-
+A way to work with mdb files in ubuntu without execute them
 #Open a terminal
 
 #Install mdbtools 
