@@ -20,6 +20,6 @@
 
 `home/Docs$ mdb-export 'file.mdb' 'name_of_table' > 'file.csv'`
 
-#### and this is what we are looking for: take all data inside the .mdb and put in the exactly same order in a .csv file, then save it. 
+#### This is what we are looking for: take all data inside the .mdb and put in the exactly same order in a .csv file, then save it to be used.
 
-#### Now you got a .csv file with all data for be completly examinated by fisical #observation and pandas at least, wich in my case was enought. 
+#### Now you got a .csv file with all data for be completly examinated by fisical observation and `pandas` at least, wich in my case was enought. 
