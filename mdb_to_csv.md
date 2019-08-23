@@ -3,22 +3,22 @@ A way to work with mdb files in ubuntu without execute them
 
 #Install mdbtools 
 
-pip install mdbtools
-pip install --upgrade pip
+`pip install mdbtools`
+`pip install --upgrade pip`
 
 #in the specific location of .mdb files, in my case was
 
-home/Docs$ mbd- # +[tab]
+`home/Docs$ mbd- # +[tab]`
 
 #its suppose to output a list of mbdTools
 
 
-home/Docs$ mdb-tables 'file.mdb'
+`home/Docs$ mdb-tables 'file.mdb'`
 
 #its suppose to print the name of tables inside the file
 
 
-home/Docs$ mdb-export 'file.mdb' 'name_of_table' > 'file.csv'
+`home/Docs$ mdb-export 'file.mdb' 'name_of_table' > 'file.csv'`
 
 #and this is what we are looking for: take all data inside the .mdb and 
 #put in the exactly same order in a .csv file, then save it. 
